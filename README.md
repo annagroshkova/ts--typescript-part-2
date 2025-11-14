@@ -1,6 +1,6 @@
 # 🤖 TypeScript i praktiken - TypeScript Part 2
 
-### 🎯 Generics och Utility Types - E-commerce Inventory System
+### Generics och Utility Types - E-commerce Inventory System
 
 Denna uppgift är en fortsättning på [ts--intro](https://github.com/chas-academy/ts--intro) och introducerar mer avancerade koncept och mönster. Dessa uppgifter är designade för att ge er djupare förståelse för hur TypeScript kan användas för att skapa robust, typsäker och skalbär kod. **Rekommenderas att göras i grupp så att ni tillsammans lär er hur ni ska jobba med TypeScript i framtida projekt**.
 
@@ -11,15 +11,15 @@ Innan du börjar med dessa uppgifter bör du ha:
 - Genomfört den grundläggande TypeScript-uppgiften: [ts--intro](https://github.com/chas-academy/ts--intro)
 - Förståelse för interfaces, union types, och grundläggande typer
 
-### Mål
+## 🎯 Mål
 
 Lära er använda generics, utility types (`Partial`, `Pick`, `Omit`, `Required`) och skapa återanvändbara typer för ett lagersystem.
 
-### Bakgrund
+## 🖼️ Bakgrund
 
 Bygg ett system för att hantera produkter i en e-handelsbutik. Systemet ska vara flexibelt och typsäkert, och använda TypeScript:s avancerade typsystem för att säkerställa dataintegritet.
 
-### Steg
+## 👩‍🔧 Steg
 
 1. **Förberedelser**
 
@@ -80,7 +80,7 @@ Bygg ett system för att hantera produkter i en e-handelsbutik. Systemet ska var
    - Verifiera att TypeScript fångar upp fel när du försöker använda felaktiga typer
    - Det kommer fortfarande gå att konsollogga `items` i.o.m att `private` inte har någon effekt vid runtime
 
-### Förväntat resultat
+## 💻 Förväntat resultat
 
 - En fungerande `Repository<T>` generic class
 - En fungerande `ProductRepository extends Repository<Product>` child class
@@ -88,7 +88,7 @@ Bygg ett system för att hantera produkter i en e-handelsbutik. Systemet ska var
 - Typsäkra funktioner för CRUD-operationer
 - Inga TypeScript-fel
 
-### Bonus
+## 🎁 Bonusuppgift
 
 Lägg till en `findBy`-metod i `Repository` som tar en predicate function som callback. En "predicate function" är en funktion som returnerar en boolean:
 
