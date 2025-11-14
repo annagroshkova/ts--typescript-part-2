@@ -1,0 +1,20 @@
+{
+  "name": "ts--typescript-part-2",
+  "version": "1.0.0",
+  "description": "Denna uppgift är en fortsättning på [ts--intro](https://github.com/chas-academy/ts--intro) och introducerar mer avancerade koncept och mönster. Dessa uppgifter är designade för att ge er djupare förståelse för hur TypeScript kan användas för att skapa robust, typsäker och skalbär kod.",
+  "scripts": {
+    "tsc": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chas-academy/ts--typescript-part-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chas-academy/ts--typescript-part-2/issues"
+  },
+  "homepage": "https://github.com/chas-academy/ts--typescript-part-2#readme"
+}
